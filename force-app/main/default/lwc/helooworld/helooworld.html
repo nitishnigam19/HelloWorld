@@ -1,0 +1,15 @@
+
+    <template>
+        <lightning-card title="HelloWorld" icon-name="custom:custom14">
+          <div class="slds-m-around_medium">
+            <p> {greeting}!</p>
+            <lightning-input label="Pincode" onchange={changeHandler}></lightning-input>
+            <lightning-input label="State"  name="State" value={state} ></lightning-input>
+            <lightning-input label="City" name="City" value={city} ></lightning-input>
+            <button class="slds-button">Button</button>
+          </div>
+          
+        </lightning-card>
+        
+      </template>
+      
